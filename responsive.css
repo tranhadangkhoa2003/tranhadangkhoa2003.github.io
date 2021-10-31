@@ -1,0 +1,269 @@
+/*MOBILE*/
+@media (max-width: 46.1875em) {
+    /*Common*/
+    .s-full-width,
+    .s-col-full {
+        width: 100% ;
+    }
+    .s-mt-16 {
+        margin-top: 16px !important;
+    }
+    .s-mt-8{
+        margin-top: 8px !important;
+    }
+
+
+    /*Main*/
+
+    #header {
+        position: absolute;
+        overflow: hidden;
+        display: block;
+        height: 46px;
+    }
+    .header__logo--img {
+        display: none;
+    }
+    
+    #nav {
+        display: block;
+        
+    }
+    #nav > li {
+       display: block;
+       
+    }
+
+    #nav li a{
+        padding: 1px 24px;
+        width: 100%;
+        background-color: #333;
+    }
+    #nav .subnav a{
+        padding: 5px 41px;
+        color: #fff;
+    }
+    #nav .subnav {
+        position: initial;
+        background-color: #333;
+    }
+
+    #nav > li:first-child{
+        display: inline-block;
+    }
+    #header .mobile-menu-btn{
+        position: absolute;
+        top: 0;
+        right: 0;
+    }
+    .tickets-list li{
+        font-size: 11px;
+
+    }
+
+    .tickets-list .soid-out {
+        line-height: 13px;
+    }
+
+
+    #content .member-img{
+        width: 100%;
+    }
+    .btn {
+        margin-bottom: 40px;
+    }
+    .section-big-body{
+        display: block;
+        width: 100%;
+        float:unset;
+    }
+    .section-small-body {
+        display: block;
+        width: 100%;
+        float:unset;
+        margin-top: 0 ;
+    }
+  
+    .footer-img {
+        margin-left: 75px;
+        height: 210px;
+        margin-bottom: 25px;
+    }
+    .socials-list {
+        margin-left: -49px;
+    }
+    .social-follow {
+       margin-left: 120px;
+    }
+
+    .social-sub-follow {
+        margin-top: 40px;
+        margin-left: 120px;
+        display: block;
+    }
+    .social-sub-follow h4 {
+        padding: 0 0 ;
+    }
+    .active-time {
+        border-left: none;
+    }
+ 
+    .active-sub-heading {
+        padding-top: 42px;
+        display: inline-block;
+    }
+
+    .separation {
+        border-left: none;
+    }
+    
+
+
+    
+  
+   
+       
+   
+   
+
+    /*begin icon*/
+    #header .search-btn {
+        display: none;
+    }
+    #header .facebook-btn{
+        display: none;
+    }
+    #header .twitter-btn{
+        display: none;
+    }
+    /*end icon*/
+
+    #nav li a{
+        padding: 0 30px;
+        
+    }
+
+    #slider .text-content{
+        font-size: 11px;
+        bottom: 11px;
+        
+    }
+    .modal-container{
+        width: calc(100% - 32px);
+    }
+    /*begin new menu*/
+    .new-menu.open {
+        display: flex ;
+    }
+    .new-menu{
+        position: fixed;
+        top:0 ;
+        right: 0;
+        bottom: 0;
+        left: 0;
+        background: rgba(0,0,0,0.5);
+        align-items: center;
+        justify-content: center;
+        display: none;
+        z-index: 2;
+    }
+    .new-menu-container{
+        background: #000011;
+        min-height: 200px;
+        max-height: calc(100%-32px);   
+        margin-top: 46px;
+    }
+    .new-menu-barber{
+        font-size: 25px;
+        color: #fff;
+        padding: 0 20px;
+    }
+    #sub-menu li {
+        padding: 7px;
+        margin-top: 10px;
+        list-style: none; 
+        line-height: 35px;
+    }
+    #sub-menu li a {
+        text-decoration: none;
+        color:ivory;
+        border: 1px solid #000;
+       
+    }
+    #sub-menu li a:hover{
+        background-color: ivory;
+        color: #000011;
+    }
+    #sub-menu > li:hover a{
+        display: block;  
+    }
+    #sub-menu > li > a {
+        text-transform: uppercase; 
+    }
+    /*End sub menu*/
+   
+
+      
+    
+      
+    
+}
+/*PC*/
+@media (min-width:64em) {
+    #header .mobile-menu-btn{
+        display: none;
+    }
+    .section-small-body{
+        float: right ;
+        margin-top: -629.5px ;
+        margin-right: -41px ;
+    }
+}
+/*Tablet*/
+@media (min-width:46.25em) and (max-width:63.9375em) {
+    #header .mobile-menu-btn{
+        display: none;
+    }
+    #content .content-section{
+        width: calc(100% - 32px);
+    }
+    #content .about-text{
+        margin-top: 20px;
+        font-size: 16px;
+        text-align: justify;
+        line-height: 1.4;
+    }
+    .social-follow {
+        margin-left: 0px;
+    }
+    .social-sub-follow h4 {
+        margin-left: 40px;
+    }
+    .separation{
+        margin-left: 270px;
+        border: none;
+    }
+    .active-time {
+        border: none;
+    }
+
+
+    
+ 
+   
+}  
+/*Tablet and Mobile*/
+@media (max-width:63.9375em) {
+    .contact-info{
+        line-height: 2;
+    }
+    .contact-form .form-control{
+        padding: 18px;
+        font-size: 16px;
+    }
+    .contact-submit-btn {
+        font-size: 16px;
+    }
+    
+    
+}
